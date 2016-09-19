@@ -26,6 +26,6 @@ setup(
     author = "Thomas Breuel",
     description = "The OCRopy RNN-based Text Line Recognizer",
     packages = ["ocrolib"],
-    data_files= [('share/ocropus', ["models/en-default.pyrnn.gz"])],
+    # data_files= [('share/ocropus', ["models/en-default.pyrnn.gz"])],
     scripts = scripts,
     )
